@@ -1,0 +1,62 @@
+/* Use a light beige color for the background */
+body {
+    background-color: #f0e6d6;
+  }
+  
+  /* Use a dark brown color for the text */
+  h1, label, option {
+    color: #4d2c1d;
+  }
+  
+  /* Use a yellow-orange color for the links and buttons */
+  a, select, button {
+    color: #f9a602;
+  }
+  
+  /* Use a friendly and easy to read font */
+  body, h1, label, option, a, select, button {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Center the container element and give it some margin and padding */
+  .container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+  }
+  
+  /* Align the form elements horizontally and give them some margin and padding */
+  form {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  select {
+    padding: 5px;
+  }
+  
+  /* Make the image element responsive and center it */
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  /* Change the color and size of the links and buttons on hover */
+  a:hover, select:hover, button:hover {
+    color: #fff;
+    background-color: #f9a602;
+    transform: scale(1.1);
+  }
+  
+  /* Add a smooth transition for the hover effects */
+  a, select, button {
+    transition: all 0.3s ease-in-out;
+  }
+    
